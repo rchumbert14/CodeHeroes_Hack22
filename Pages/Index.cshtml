@@ -1,10 +1,32 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Start page";
 }
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<!-- Start Page -->
+<div class = "position-absolute top-50 start-50 translate-middle text-center">
+    <h1 class = "h1">Code Heroes</h1>
+    <div></div>
+    <!-- start button- links to GamePage -->
+    <a class = "btn btn-primary" href = "GamePage">Start</a>
+    <!-- language button -->
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Language
+      </button>
+      <ul class="dropdown-menu">
+        <li><button class="dropdown-item" type="button">Python</button></li>
+      </ul>
+    </div>
+    <!-- Difficulty button -->
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary dropdown-toggle disabled" data-bs-toggle="dropdown" aria-expanded="false">
+        Difficulty
+      </button>
+      <ul class="dropdown-menu">
+        <li><button class="dropdown-item" type="button">Easy</button></li>
+        <li><button class="dropdown-item" type="button">Normal</button></li>
+        <li><button class="dropdown-item" type="button">Hard</button></li>
+      </ul>
+    </div>
 </div>
