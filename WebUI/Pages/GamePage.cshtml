@@ -1,9 +1,16 @@
 ﻿@page
+@using Hack22.Pages
 @model IndexModel
 @{
-    ViewData["Title"] = "Start page";
+    ViewData["Title"] = "Game page";
 }
-<!-- Start Page -->
+<!-- Game Page -->
+<!-- Title -->
 <div class="text-center">
-    <h1 class = "uxGameTime">Game Time!</h1>
+    <h1 class = "h1 text-white">Game Time!</h1>
+</div>
+<!-- Game -->
+<div class = "position-absolute top-50 start-50 translate-middle text-center bg-dark text-white p-5">
+    <img class = "healthLeft" src="https://cdn.discordapp.com/attachments/753824949223030956/1041121202925752391/HealthPNG.png" alt="health">
+    <img src="https://cdn.discordapp.com/attachments/753824949223030956/1041119674764623892/GamePageWithElements.jpg" class="img-fluid" alt="Game Screen">
 </div>
