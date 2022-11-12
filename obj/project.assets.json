@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rachel\\Documents\\K-State\\Hack22\\Data\\Data.csproj",
-      "projectName": "Data",
-      "projectPath": "C:\\Users\\Rachel\\Documents\\K-State\\Hack22\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\Rachel\\Documents\\K-State\\Hack22\\Hack22.csproj",
+      "projectName": "Hack22",
+      "projectPath": "C:\\Users\\Rachel\\Documents\\K-State\\Hack22\\Hack22.csproj",
       "packagesPath": "C:\\Users\\Rachel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rachel\\Documents\\K-State\\Hack22\\Data\\obj\\",
+      "outputPath": "C:\\Users\\Rachel\\Documents\\K-State\\Hack22\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rachel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -57,6 +57,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
