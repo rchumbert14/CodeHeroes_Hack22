@@ -15,7 +15,7 @@ html {
 
 body {
     margin-bottom: 60px;
-    background-image: url("https://cdn.discordapp.com/attachments/753824949223030956/1041118906829512734/background.jpg");
+    background-image: url("/Imgs/background.jpg");
     background-color: #cccccc;
 }
 
@@ -23,7 +23,7 @@ body {
     position: absolute;
     width: 1000px;
     height: 550px;
-    background-image: url("https://cdn.discordapp.com/attachments/753824949223030956/1041119674764623892/GamePageWithElements.jpg")
+    background-image: url("/Imgs/GamePageWithElements.jpg")
 }
 
 .disabled {
