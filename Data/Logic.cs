@@ -18,18 +18,22 @@ namespace Data
         {
             //Generate ShortAnswer Question Objects
             _shortAnswer = new();
-            foreach (string line in System.IO.File.ReadLines("./QuestionData/ShortAnswerQuestions"))
+            foreach (string line in System.IO.File.ReadLines("../Data/QuestionData/ShortAnswerQuestions.txt"))
             {
                 _shortAnswer.Add(new ShortAnswer(line));
             }
             //Generate MultiChoice Question Objects
             _multiChoice = new();
-            foreach (string line in System.IO.File.ReadLines("./QuestionData/MultiChoiceQuestions"))
+            foreach (string line in System.IO.File.ReadLines("../Data/QuestionData/MultiChoiceQuestions.txt"))
             {
                 _multiChoice.Add(new MultiChoice(line));
             }
             _currentQuestion = _multiChoice[0];
             RandomizeQuestion();
+
+            //Testing
+            _playerHealth = 3;
+            _monsterHealth = 3;
         }
         
         /// <summary>

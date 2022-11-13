@@ -99,7 +99,7 @@
         "projectName": "Data",
         "projectPath": "C:\\Users\\jcpar\\source\\repos\\Hack22\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\jcpar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jcpar\\source\\repos\\Hack22\\Data\\obj\\",
+        "outputPath": "C:\\Users\\jcpar\\Source\\Repos\\Hack22\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Visual Studio\\SDKs\\NuGetPackages",
