@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\js\MultipleChoice.js" />
+    <None Include="wwwroot\js\UpdateHealth.js" />
   </ItemGroup>
 
   <ItemGroup>

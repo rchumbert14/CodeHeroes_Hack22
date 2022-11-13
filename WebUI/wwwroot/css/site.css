@@ -19,12 +19,26 @@ body {
     background-color: #cccccc;
 }
 
+/* Game Screen */
 .parent {
     position: absolute;
     width: 1000px;
     height: 550px;
     background-image: url("/Imgs/GamePageWithElements.jpg")
 }
+
+/* UI Screen */
+.gameUI {
+    position: absolute;
+    width: 1000px;
+    height: 300px;
+}
+
+/* answer button format */
+/*.answer{
+    width: auto;
+    height: auto;
+}*/
 
 .disabled {
     opacity: 0.6;
