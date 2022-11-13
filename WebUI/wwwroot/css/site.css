@@ -3,9 +3,9 @@ html {
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
@@ -14,17 +14,31 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-image: url("/Imgs/background.jpg");
+    background-color: #cccccc;
 }
 
-/*button {
-    background-color: #e7e7e7;
-    color: black;
-    border: 2px solid #555555;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;*/
+/* Game Screen */
+.parent {
+    position: absolute;
+    width: 1000px;
+    height: 550px;
+    background-image: url("/Imgs/GamePageWithElements.jpg")
 }
+
+/* UI Screen */
+.gameUI {
+    position: absolute;
+    width: 1000px;
+    height: 300px;
+}
+
+/* answer button format */
+/*.answer{
+    width: auto;
+    height: auto;
+}*/
 
 .disabled {
     opacity: 0.6;
@@ -35,13 +49,3 @@ dropdown {
     position: relative;
     display: inline-block;
 }
-
-/*dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-}*/

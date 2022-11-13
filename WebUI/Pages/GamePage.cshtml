@@ -1,9 +1,39 @@
 ﻿@page
+@using Hack22.Pages
 @model IndexModel
 @{
-    ViewData["Title"] = "Start page";
+    ViewData["Title"] = "Game page";
 }
-<!-- Start Page -->
-<div class="text-center">
-    <h1 class = "uxGameTime">Game Time!</h1>
+<!-- Game Page -->
+<!-- Image and Health -->
+<div class = "position-absolute top-50 start-50 translate-middle text-center bg-dark text-white p-5">
+    <h1 class="h1 text-white">Game Time!</h1>
+    <div class = "parent top-50 start-50 translate-middle">
+        <!-- Hero health -->
+        <img src = "Imgs\HealthFull.png" class="float-start heroHP">
+        <img src = "Imgs\HealthFull.png" class="float-start heroHP">
+        <img src = "Imgs\HealthFull.png" class="float-start heroHP">
+        <!-- Monster Health -->
+        <img src = "Imgs\HealthFull.png" class="float-end monHP">
+        <img src = "Imgs\HealthFull.png" class="float-end monHP">
+        <img src = "Imgs\HealthFull.png" class="float-end monHP">
+    </div>
+</div>
+<!-- Game UI -->
+<div class = "gameUI top-100 start-50 translate-middle text-center bg-dark text-white p-2">
+    <h1 class = "h4" id="question">Question here</h1>
+    <div class = "container text-center top-50 start-50">
+        <div class = "row">
+            <div class="column">
+                <button class="btn btn-primary btn-lg answer">Answer 1</button>
+                <button class="btn btn-primary btn-lg answer">Answer 2</button>
+            </div>
+            <div class="column">
+                <button class="btn btn-primary btn-lg answer">Answer 3</button>
+                <button class="btn btn-primary btn-lg answer">Answer 4</button>
+            </div>
+        </div>
+    </div>
+    <!--<script src="js/UpdateHealth.js"></script>-->
+    <script src="js/MultipleChoice.js"></script>
 </div>

@@ -1,14 +1,16 @@
 ﻿@page
+@using Hack22.Pages
 @model IndexModel
 @{
     ViewData["Title"] = "Start page";
 }
 <!-- Start Page -->
-<div class = "position-absolute top-50 start-50 translate-middle text-center">
+<div class = "position-absolute top-50 start-50 translate-middle text-center bg-dark text-white p-5">
     <h1 class = "h1">Code Heroes</h1>
+    <img src="Imgs\HeroPNG.png" class="img-fluid p-5" alt="Hero">
     <div></div>
     <!-- start button- links to GamePage -->
-    <a class = "btn btn-primary" href = "GamePage">Start</a>
+    <a class = "btn btn-primary" href = "IntroPage">Start</a>
     <!-- language button -->
     <div class="btn-group">
       <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
@@ -20,13 +22,14 @@
     </div>
     <!-- Difficulty button -->
     <div class="btn-group">
-      <button type="button" class="btn btn-primary dropdown-toggle disabled" data-bs-toggle="dropdown" aria-expanded="false">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
         Difficulty
       </button>
       <ul class="dropdown-menu">
-        <li><button class="dropdown-item" type="button">Easy</button></li>
-        <li><button class="dropdown-item" type="button">Normal</button></li>
-        <li><button class="dropdown-item" type="button">Hard</button></li>
+        <li><button class="dropdown-item diff" type="button" id="easy">Easy</button></li>
+        <li><button class="dropdown-item diff" type="button" id="normal">Normal</button></li>
+        <li><button class="dropdown-item diff" type="button" id="hard">Hard</button></li>
       </ul>
     </div>
+    <script src="js/site.js"></script>
 </div>

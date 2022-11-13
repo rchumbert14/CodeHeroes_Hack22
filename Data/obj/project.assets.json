@@ -8,35 +8,26 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jcpar\\.nuget\\packages\\": {},
-    "D:\\Visual Studio\\SDKs\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Rachel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jcpar\\source\\repos\\Hack22\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\Rachel\\Documents\\K-State\\Hack22\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\jcpar\\source\\repos\\Hack22\\Data\\Data.csproj",
-      "packagesPath": "C:\\Users\\jcpar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jcpar\\source\\repos\\Hack22\\Data\\obj\\",
+      "projectPath": "C:\\Users\\Rachel\\Documents\\K-State\\Hack22\\Data\\Data.csproj",
+      "packagesPath": "C:\\Users\\Rachel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Rachel\\Documents\\K-State\\Hack22\\Data\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Visual Studio\\SDKs\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jcpar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Rachel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -70,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

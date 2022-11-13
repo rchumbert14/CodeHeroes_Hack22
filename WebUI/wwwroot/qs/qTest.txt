@@ -1,0 +1,2 @@
+﻿question|answer1|answer2|answer3|answer4|correctAnswerIndex
+What is the answer|Not This|This|Not This|Not This|2
