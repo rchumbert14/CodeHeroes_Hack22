@@ -23,10 +23,10 @@ function testRestore() {
     resetHealth();
 }
 
-const click = document.querySelectorAll(".answer");
-click[0].onclick = function () {
+const answers = document.querySelectorAll(".answer");
+answers[0].onclick = function () {
     updateHeroHealth(hp);
 }
-click[1].onclick = function () {
+answers[1].onclick = function () {
     resetHealth();
 }

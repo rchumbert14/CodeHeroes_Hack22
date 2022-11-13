@@ -1,2 +1,2 @@
-﻿question||answer1||correct1||answer2||correct2||answer3||correct3||ansewr4||correct4
-What is the answer||Not This||False||This||False||Not This||False||Not This||False
+﻿question|answer1|answer2|answer3|answer4|correctAnswerIndex
+What is the answer|Not This|This|Not This|Not This|2
